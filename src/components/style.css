@@ -1,0 +1,85 @@
+@import "./typography.css";
+@import "./container.css";
+@import "./form.css";
+@import "./about.css";
+@import "./dividers.css";
+
+body,
+input,
+textarea,
+label {
+  background-color: #efeee7;
+  font-family: "Engravers", georgia, serif;
+  margin: 0;
+}
+h4 {
+  font-family: "Elgoc Regular", georgia, serif;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3e4239;
+  letter-spacing: 8px;
+  font-size: 7rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  h4 {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-family: "Elgoc Regular", georgia, serif;
+}
+
+/* SLICK NAVS COLOR */
+.slick-next:before,
+.slick-prev:before {
+  color: #9c7c53 !important;
+}
+
+/* HEADER */
+.image-logo img {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .image-logo img {
+    max-width: 300px;
+  }
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.footer a {
+  margin: 16px;
+  color: #3e4239;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #9c7c53;
+}
+
+/* VIDEO */
+.flor-video {
+  margin-bottom: 50px;
+  width: 100% !important;
+}
+
+/* SLIDER */
+.parent-photo {
+  margin-bottom: 50px;
+}

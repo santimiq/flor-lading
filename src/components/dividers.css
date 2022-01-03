@@ -1,0 +1,30 @@
+.sec-divs {
+  margin: 50px 0;
+}
+
+/*------ MEDIA QUERIES ------*/
+@media (min-width: 576px) {
+  .sec-divs {
+    margin: 70px 0;
+  }
+}
+@media (min-width: 768px) {
+  .sec-divs {
+    margin: 90px 0;
+  }
+}
+@media (min-width: 992px) {
+  .sec-divs {
+    margin: 110px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .sec-divs {
+    margin: 120px 0;
+  }
+}
+@media (min-width: 1400px) {
+  .sec-divs {
+    margin: 130px 0;
+  }
+}

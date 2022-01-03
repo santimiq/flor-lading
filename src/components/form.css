@@ -1,0 +1,75 @@
+.button-form {
+  border-style: none;
+  padding: 8px 24px;
+  margin-left: 18px;
+  margin-right: 18px;
+  text-transform: uppercase;
+  background-color: #9c7c53;
+  color: #efeee7;
+  border-radius: 5px;
+  margin: 0 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.button-form:hover {
+  background-color: #362d29;
+}
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  max-width: 780px;
+  width: 100%;
+}
+.block-component {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.border-input {
+  border-style: none;
+  border-bottom: 1px solid #b3bab8;
+  color: #b3bab8;
+  padding: 5px 0 3px;
+  background: transparent;
+}
+label {
+  color: #362d29;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+input,
+select,
+textarea {
+  font-size: 1rem;
+}
+.importante {
+  color: #362d29;
+  font-size: 12px;
+}
+input:focus-visible {
+  outline: none;
+}
+select:focus-visible {
+  outline: none;
+}
+textarea:focus-visible {
+  outline: none;
+}
+textarea:focus {
+  border-bottom: 1px solid #9c7c53;
+}
+input:focus {
+  border-bottom: 1px solid #9c7c53;
+}

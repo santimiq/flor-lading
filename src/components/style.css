@@ -40,6 +40,29 @@ h2 {
   color: #9c7c53 !important;
 }
 
+/* .slick-prev {
+  left: 100px !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 100px !important;
+  z-index: 1;
+} */
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  color: #362d29 !important;
+}
+
+/* .slick-dots {
+  position: absolute;
+  bottom: 130px !important;
+} */
+
 /* HEADER */
 .image-logo img {
   max-width: 500px;

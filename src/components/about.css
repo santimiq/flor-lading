@@ -6,8 +6,8 @@
 .heading-info {
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, -0%);
+  left: 15%;
+  /* transform: translate(-50%, -0%); */
   text-align: center;
 }
 .sobre {

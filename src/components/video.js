@@ -8,6 +8,7 @@ export default function video() {
     <div>
       <Zoom>
         <img className="flor-video" src={GifFlor} />
+        <h5 className="full-website">FULL WEBSITE COMING SOON</h5>
       </Zoom>
     </div>
   )

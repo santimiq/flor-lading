@@ -35,11 +35,11 @@ const Layout = ({ children }) => {
           <a
             href="https://instagram.com/florenciafranc0"
             target="_blank"
-            class=""
+            className=""
           >
             INSTAGRAM
           </a>
-          <a href="https://pin.it/4n7BQ6p" target="_blank" class="">
+          <a href="https://pin.it/4n7BQ6p" target="_blank" className="">
             PINTEREST
           </a>
         </footer>

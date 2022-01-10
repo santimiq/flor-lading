@@ -90,7 +90,7 @@ export default function Form() {
             </div>
 
             <div className="block-component">
-              <label>Hay niños:</label>
+              <label>Si hay niños:</label>
               <input
                 type="text"
                 placeholder="Nombres y edades de los niños"
@@ -147,7 +147,7 @@ export default function Form() {
               <textarea
                 className="border-input"
                 name="detalles"
-                placeholder="Me encantaría saber qué estás buscando para tus fotos. Cuantos más detalles mejor para que podamos crear algo increíble. Si es con niños, cuéntame sobre ellos."
+                placeholder="Me encantaría saber qué estás buscando para tus fotos."
               ></textarea>
             </div>
             <div className="block-component">

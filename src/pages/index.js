@@ -14,14 +14,14 @@ const IndexPage = () => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <link rel="canonical" href="http://mysite.com/example" />
+      <link rel="canonical" href="https://florenciafranco.com" />
 
       {/* <!-- Primary Meta Tags --> */}
       <title>FLORENCIA FRANCO - Timeless portraiture</title>
       <meta name="title" content="FLORENCIA FRANCO - Timeless portraiture" />
       <meta
         name="description"
-        content="This website is so awesome that I really don't think you can handle how much awesome that is happening here."
+        content="Acapulco photographer, family photos cdmx Mexico City, portrait photography Mexico - Florencia franco 2022."
       />
       {/* <!-- Open Graph / Facebook --> */}
       <meta property="og:type" content="website" />

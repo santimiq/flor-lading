@@ -42,6 +42,13 @@ const Layout = ({ children }) => {
           <a href="https://pin.it/4n7BQ6p" target="_blank" className="">
             PINTEREST
           </a>
+          <a
+            href="https://cursos.florenciafranco.com"
+            target="_blank"
+            className=""
+          >
+            CURSOS
+          </a>
         </footer>
       </div>
     </>

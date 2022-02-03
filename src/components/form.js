@@ -8,6 +8,10 @@ export default function Form() {
     submitting: false,
     status: null,
   })
+
+  const [showText, setShowText] = useState(false)
+  const onChange = () => setShowText(true)
+
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
       submitting: false,
@@ -101,12 +105,26 @@ export default function Form() {
 
             <div className="block-component">
               <label>Lugar:</label>
-              <select name="Locación" id="" className="border-input">
+              <select
+                name="Locación"
+                id=""
+                className="border-input"
+                onChange={setShowText}
+              >
                 <option value="Acapulco">ACAPULCO</option>
                 <option value="CDMX">CDMX</option>
                 <option value="Uruguay">URUGUAY</option>
                 <option value="Otro">OTRO</option>
               </select>
+              {showText ? (
+                <input
+                  type="text"
+                  placeholder="Si es Otro, cuentame desde donde me escribes"
+                  className="border-input otro-input"
+                  nam
+                  e="Otro"
+                />
+              ) : null}
             </div>
 
             <div className="block-component">
